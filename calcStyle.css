@@ -1,0 +1,146 @@
+/* font-family: 'Electrolize', sans-serif; */
+
+body {
+  font-size: 10px;
+  font-family: "Electrolize", sans-serif;
+
+  margin: auto;
+
+  background-color: goldenrod;
+}
+#calculator {
+  padding: 40px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+#calculatorKeys {
+  margin-bottom: 10px;
+
+  background-color: #ebf5ee;
+  margin: 0;
+  padding: 20px 50px;
+
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+
+  text-align: center;
+  font-size: 3em;
+
+  border-radius: 0 0 20px 20px;
+  border-top: solid 30px #931621;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+}
+
+#clear,
+#posNeg,
+#mod,
+#div,
+#seven,
+#eight,
+#nine,
+#multiply,
+#four,
+#five,
+#six,
+#sub,
+#one,
+#two,
+#three,
+#add,
+#zero,
+#decimal,
+#equals,
+#del {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10%;
+  color: #ffffff;
+  background-color: #326771;
+  font-family: "Electrolize", sans-serif;
+  border: double 2px #000000;
+}
+
+#posNeg {
+  font-size: 1.1em;
+}
+#del {
+  font-size: 0.8em;
+}
+
+#clear:hover,
+#posNeg:hover,
+#mod:hover,
+#div:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#multiply:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#sub:hover,
+#one:hover,
+#two:hover,
+#three:hover,
+#add:hover,
+#equals:hover,
+#del:hover,
+#zero:hover,
+#decimal:hover {
+  background-color: #eadeda;
+  color: #000000;
+}
+
+#div,
+#multiply,
+#add,
+#sub,
+#equals {
+  background-color: #42d9c8;
+}
+
+#clear,
+#posNeg,
+#mod {
+  background-color: #2c8c99;
+}
+
+#calcScreen {
+  margin: 0;
+  padding: 0;
+  font-size: 4em;
+  border-radius: 20px 20px 0 0;
+  border-top: solid 30px #931621;
+  border-bottom: solid 20px #931621;
+  border-left: solid 15px #931621;
+  border-right: solid 15px #931621;
+  background-color: #ffffff;
+  overflow-y: hidden;
+  overflow-x: auto;
+  word-wrap: break-word;
+}
+
+#results {
+  color: #000000;
+  padding: 40px 10px 30px 10px;
+  height: 100px;
+  width: 440px;
+  text-align: right;
+}
+
+.footer {
+  margin:10px;
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
