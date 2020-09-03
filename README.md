@@ -12,6 +12,6 @@ Follow opperand operator opperand style. Then click equal sign to see the result
  - CSS
  
  ## Credits
- Inspired 
+ Inspired by:
  - https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md
  - Iphone calculator
