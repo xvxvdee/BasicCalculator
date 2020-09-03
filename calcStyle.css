@@ -135,12 +135,14 @@ button {
   text-align: right;
 }
 
-.footer {
-  margin:10px;
+.footer p {
+  /* background-color:blue; */
+  padding:0px;
+  margin: 5px 0;
   font-size: 35px;
   text-align: center;
   width: 100%;
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
 }
